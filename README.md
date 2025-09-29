@@ -42,7 +42,7 @@ Event-driven serverless architecture that automatically scales from zero to thou
 
 ## Technologies Used
 
-- **AWS Lambda** (Python 3.8)
+- **AWS Lambda** (Python 3.9)
 - **Amazon S3** (File storage & event triggers)
 - **Amazon DynamoDB** (NoSQL database)
 - **Amazon SNS** (Notifications)
@@ -56,7 +56,7 @@ Event-driven serverless architecture that automatically scales from zero to thou
 Processes CSV files uploaded to S3 and loads data into DynamoDB table.
 
 **Trigger:** S3 Object Created event  
-**Runtime:** Python 3.8  
+**Runtime:** Python 3.9  
 **Key Operations:**
 - Downloads CSV from S3
 - Parses inventory data
@@ -66,7 +66,7 @@ Processes CSV files uploaded to S3 and loads data into DynamoDB table.
 Monitors inventory levels and sends alerts for out-of-stock items.
 
 **Trigger:** DynamoDB Streams  
-**Runtime:** Python 3.8  
+**Runtime:** Python 3.9  
 **Key Operations:**
 - Reads DynamoDB Stream events
 - Checks inventory count
@@ -77,7 +77,7 @@ Monitors inventory levels and sends alerts for out-of-stock items.
 ### Prerequisites
 - AWS Account
 - AWS CLI configured
-- Python 3.8+
+- Python 3.9+
 
 ### Setup Steps
 
