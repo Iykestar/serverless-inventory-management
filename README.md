@@ -154,6 +154,7 @@ Ikechukwu Enuosa
 AWS Solutions Architect
 Portfolio: ikenuosa.com/projects
 GitHub: @iykestar
+LinkedIn: linkedin.com/in/ikenuosa/
 License
 MIT License - See LICENSE file for details
 
